@@ -1,0 +1,96 @@
+.officer-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+  max-width: 280px;
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.officer-card:hover {
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #363838;
+}
+
+.position {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: -10px;
+}
+
+.officer-card .year a {
+  position: relative;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 4px;
+  transition: color 0.3s ease;
+}
+
+.officer-card .year a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffa500;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.officer-card .year a:hover::after {
+  width: 100%;
+}
+
+.officer-card .name a {
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  color: #363838;
+  transition: color 0.3s ease;
+}
+
+.officer-card .name a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffa500;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.officer-card .name a:hover::after {
+  width: 100%;
+}

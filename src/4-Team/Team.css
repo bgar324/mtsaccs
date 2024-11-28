@@ -1,0 +1,28 @@
+.team-header{
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.team-p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.tcontent{
+  background-color: #FAFAFA ;
+}
+
+.officerRow{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-container{
+  /* background: red; */
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

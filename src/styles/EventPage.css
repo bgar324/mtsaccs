@@ -1,0 +1,79 @@
+.net-event-container {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1600px;
+}
+
+.eventpage-img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.eventpage-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-header {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.event-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.pevent-card-text p {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.pevent-card-text h3 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+
+.mail {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.mail:hover {
+  color: orange;
+}
+
+.kobe {
+  display: block;
+  width: 100%; 
+  background-color: #ffdbbb;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.kobe:hover {
+  background-color: orange;
+}
+
+.epcontent{
+  background-color: #FAFAFA;
+}

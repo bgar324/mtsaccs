@@ -1,0 +1,9 @@
+.pill {
+  width: 100px;
+  height: 6px;
+  background-color: #ffa500;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}

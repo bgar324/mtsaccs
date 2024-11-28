@@ -1,0 +1,32 @@
+.econtent {
+  background-color: #FAFAFA;
+}
+
+.past-events-section {
+  background-color: #f5f5f5;
+}
+
+.event-list .col {
+  display: flex;
+  justify-content: center; /* Center cards within the grid */
+}
+
+.event-list .card {
+  max-width: 100%; /* Ensure cards don’t exceed their container */
+}
+
+.econtainer {
+  padding: 0 20px; 
+}
+
+@media (min-width: 768px) {
+  .econtainer {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .econtainer {
+    padding: 0 100px;
+  }
+}

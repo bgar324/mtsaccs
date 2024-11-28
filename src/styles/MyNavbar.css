@@ -1,0 +1,76 @@
+.rubberDuckImage {
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.navContainer{
+  max-width: 100%;
+  /* background-color: cyan; */
+  padding: 5px 20px 0 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px 0 20px;
+}
+
+.navBrand{
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.masterNav {
+  /* background-color: green; */
+  padding: 0 !important;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.04);
+  background-color: white;
+}
+
+.join-button{
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  color: #ffa500;
+}
+
+.join-button:hover {
+  color: white;
+}
+
+.navLinks{
+  gap: 40px;
+}
+
+.nav-link{
+  font-size: 15px;
+  color: #4C4E4E;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  color: orange;
+}
+
+.spanshit{
+  font-size: 20px;
+  font-weight: 650;
+  margin: 0;
+  color: #4C4E4E;
+  transition: color 0.3s ease;
+}
+
+.spanshit:hover{
+  color:orange;
+}
+
+.spacer{
+  height: 77px;
+}

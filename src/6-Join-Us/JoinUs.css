@@ -1,0 +1,113 @@
+.jcontent {
+  background-color: #fafafa;
+}
+
+.j-p {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+.membership-card {
+  padding: 20px 30px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.membership-card:hover {
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.membership-card-text {
+  font-size: 16px;
+}
+
+.jayz {
+  max-width: 2000px;
+  margin-bottom: 30px;
+}
+
+.inforow {
+  gap: 30px;
+  margin-bottom: 75px;
+}
+
+.custom-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.rolez li {
+  font-size: 20px;
+}
+
+.nav-tabs .nav-link {
+  font-size: 18px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+}
+
+.team-header{
+  margin: 50px auto 30px auto;
+  max-width: 1000px;
+}
+
+.acrdn{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  color: black;
+  background-color: #f0f0f0; 
+  font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: orange; 
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-body{
+  background-color: #f8f8f8;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: orange;
+  color: white;
+  border-color: orange orange white;
+}
+
+.nav-tabs:focus{
+  outline: none;
+  box-shadow: none;
+}
