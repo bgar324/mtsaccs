@@ -107,7 +107,7 @@ const About = () => {
             <Row className="justify-content-center g-4">
               <Col xs={12} sm={6} lg={4} className="d-flex justify-content-center">
                 <OfficerCard
-                  imagesrc="public/static/advisors/AtanasioDominick.png"
+                  imagesrc="static/advisors/AtanasioDominick.png"
                   name={
                     <a
                       href="https://www.mtsac.edu/profiles/datanasio.html"
@@ -131,7 +131,7 @@ const About = () => {
               </Col>
               <Col xs={12} sm={6} lg={4} className="d-flex justify-content-center">
                 <OfficerCard
-                  imagesrc="public/static/advisors/51e5ddb9-fe19-46a9-af78-0a78ad96effc.png"
+                  imagesrc="static/advisors/51e5ddb9-fe19-46a9-af78-0a78ad96effc.png"
                   name={
                     <a
                       href="https://www.mtsac.edu/profiles/johannsen.html"
