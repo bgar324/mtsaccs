@@ -22,6 +22,7 @@ const JoinUs = () => {
           <h2 className="team-header">Join Us!</h2>
           <Pill />
           <p className="j-p my-3">How do I join?</p>
+          <Pill />
         </section>
 
         <Card className="membership-card">
@@ -36,6 +37,7 @@ const JoinUs = () => {
         </Card>
 
         <p className="j-p mt-5">What's in it for me?</p>
+        <Pill />
 
         <Row className="mt-3 justify-content-center inforow">
           {[
@@ -52,6 +54,7 @@ const JoinUs = () => {
         </Row>
 
         <p className="j-p">You'll have the incredible opportunity to take on a leadership role!</p>
+        <Pill />
 
         <p className="text-center">While we are not currently taking applications, click on each tab to learn what each position does and what may be a good fit for you!</p>
 
@@ -147,6 +150,7 @@ const JoinUs = () => {
         </div>
 
         <p className="j-p mt-5">Frequently Asked Questions</p>
+        <Pill />
 
         <div className="acrdn">
         <Accordion defaultActiveKey={['0']} alwaysOpen>
