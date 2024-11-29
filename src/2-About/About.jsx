@@ -48,6 +48,13 @@ const About = () => {
               <Carousel className="about-carousel">
                 <Carousel.Item>
                   <Image
+                    src="static/carousel/csclub-clubday.jpg"
+                    fluid
+                    rounded
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
                     src="static/carousel/PXL_20241102_195123915.jpg"
                     fluid
                     rounded
