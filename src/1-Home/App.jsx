@@ -118,7 +118,7 @@ const App = () => {
               </Col>
               <Col md={6}>
                 <p>Curious about what we've been up to? Visit our Events page to explore all the exciting upcoming and past events, and see how you can join in on the action!</p>
-                <a href = "/join-us">Visit our Events page to learn more!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <a href = "/events">Visit our Events page to learn more!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
               </Col>
             </Row>
             {/* <Row className="button-row">
