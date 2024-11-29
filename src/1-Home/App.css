@@ -81,29 +81,41 @@
   margin-top: -15px;
 }
 
-.infoTextSuper a{
+.infoTextSuper a,
+.teamjoinText a {
   position: relative;
+  display: inline-block; /* Ensure the link behaves like a block for proper centering */
   text-decoration: none;
-  color: orange;
-  margin-top: 4px;
+  color: #ffa500;
+  margin-top: 10px; /* Add some spacing for better layout */
+  text-align: center; /* Ensure centering within the container */
   transition: color 0.3s ease;
 }
 
-.infoTextSuper a::after{
+.infoTextSuper a::after,
+.teamjoinText a::after {
   content: "";
   position: absolute;
-  left: 50%;
-  bottom: -2px;
-  width: 0%;
+  left: 0; /* Align underline to the start of the link */
+  right: 0; /* Ensure full width of the link */
+  bottom: -2px; /* Position underline slightly below the text */
   height: 2px;
+  width: 100%; /* Ensures full underline width */
   background-color: #ffa500;
-  transform: translateX(-50%);
-  transition: width 0.3s ease;
+  transform: scaleX(0); /* Default state: underline hidden */
+  transform-origin: center; /* Animation starts from center */
+  transition: transform 0.3s ease; /* Smooth underline animation */
 }
 
-.infoTextSuper a:hover::after{
-  width: 100%;
+.infoTextSuper a:hover::after,
+.teamjoinText a:hover::after {
+  transform: scaleX(1); /* Expand underline on hover */
 }
+
+.teamjoinText {
+  text-align: center; /* Ensures all text within this section is centered */
+}
+
 
 .banner2{
   position: relative;
@@ -141,7 +153,7 @@
 }
 
 .teamjoin p{
-  margin-top: -15px;
+  margin-top: 5px;
 }
 
 .buttonz{

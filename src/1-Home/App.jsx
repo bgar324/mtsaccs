@@ -70,13 +70,16 @@ const App = () => {
             <Pill />
             <Row>
               <Col md={6}>
-                <p>While we are currently not taking applications for cabinet positions, including the roles of president and vice president, check out our current team — don't be afraid to reach out!</p>
+                <p>While we are currently not taking applications for cabinet positions, including the roles of president and vice president, be sure to join our mailing list for future updates!</p>
+                <a href = "/team">Check out our current team!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
               </Col>
               <Col md={6}>
-                <p>Interested in learning more about the benefits of joining as well as the responsibilities of each role? Visit our Join Us page for an in-depth look at what we offer.</p>
+                <p>
+                Interested in joining? Curious about the benefits of membership and the opportunities available? Looking to understand the duties and expectations of each role?</p>
+                <a href = "/join-us">Visit our Join Us page to learn more!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
               </Col>
             </Row>
-            <Row className="button-row">
+            {/* <Row className="button-row">
               <Col md={6}>
                 <Button variant="outline-warning" href="/team" className="join-button">
                   team
@@ -87,7 +90,7 @@ const App = () => {
                   join us
                 </Button>
               </Col>
-            </Row>
+            </Row> */}
           </Col>
 
           {/* Image Column */}
@@ -111,12 +114,14 @@ const App = () => {
             <Row>
               <Col md={6}>
                 <p>Curious about our technical projects and past work? Explore our projects page to catch up on all our workshop and meeting slides!</p>
+                <a href = "/projects">Visit our Projects page to learn more!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
               </Col>
               <Col md={6}>
-                <p>Want to see what we're up to? Check out the events page to see upcoming & past events!</p>
+                <p>Curious about what we've been up to? Visit our Events page to explore all the exciting upcoming and past events, and see how you can join in on the action!</p>
+                <a href = "/join-us">Visit our Events page to learn more!‎ <i class="fa-solid fa-circle-arrow-right"></i></a>
               </Col>
             </Row>
-            <Row className="button-row">
+            {/* <Row className="button-row">
               <Col md={6}>
                 <Button variant="outline-warning" href="/projects" className="join-button">
                   projects
@@ -127,7 +132,7 @@ const App = () => {
                   events
                 </Button>
               </Col>
-            </Row>
+            </Row> */}
           </Col>
         </Row>
       </Container>
