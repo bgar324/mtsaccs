@@ -25,7 +25,7 @@ const About = () => {
               <h2 className="text-center mb-4">What is the Computer Science Club?</h2>
               <Pill />
                 <p>
-                  The Computer Science Club at Mt. San Antonio College is a welcoming that fosters growth and collaboration in technology. Our mission is to make computer science fun and accessible while helping students develop technical and leadership skills.
+                  The Computer Science Club at Mt. San Antonio College is a welcoming community that fosters growth and collaboration in technology. Our mission is to make computer science fun and accessible while helping students develop technical and leadership skills.
                 </p>
                 <p>
                   We host workshops, tutoring sessions, and hands-on activities to
