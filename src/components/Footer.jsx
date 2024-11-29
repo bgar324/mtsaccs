@@ -53,8 +53,7 @@ const Footer = () => {
       </Container>
 
       <div className="footer-bottom">
-        Copyright © 2024 ONDA
-        {/* <a className="footer-bottom-link" href="https://yourwebsite.com"> yourwebsite.com</a> */}
+        Copyright © 2024 <a href ="https://benjamingarcia.vercel.app/" target = "_blank">ONDA</a>
       </div>
     </footer>
   );

@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import './App.css'
 import MailingList from '../components/MailingList'
 import { Button, Col, Row, Container } from 'react-bootstrap'
+import Pill from '../components/Pill'
 
 const App = () => {
   return (
@@ -27,18 +28,19 @@ const App = () => {
           {/* Text Column */}
           <Col lg={6} className="informationalText">
             <h2>What is Computer Science at Mt. SAC?</h2>
-            <p>
-              Computer science is the study of computers, computation, information, and automation,
-              encompassing their design, development, and practical applications. It includes a focus on
-              creating and testing software and systems, from websites (like this one!) to complex, automated solutions.
-              Learn more at the <a href="https://www.mtsac.edu/math" target="_blank">Math and Computer Science department</a> for coursework and career paths.
-            </p>
-            <p>
-              To learn our origins and what we're all about, check out the about page.
-            </p>
-            <Button variant="outline-warning" href="/about" className="join-button">
-                about
-            </Button>
+            <Pill />
+            <div className="infoTextSuper">
+              <p>
+                Computer science is the study of computers, computation, information, and automation,
+                encompassing their design, development, and practical applications. It includes a focus on
+                creating and testing software and systems, from websites (like this one!) to complex, automated solutions.
+                Learn more at the <a href="https://www.mtsac.edu/math" target="_blank">Math and Computer Science department</a> for coursework and career paths.
+              </p>
+              <p>
+                To learn our origins and what we're all about, check out the ‎ 
+                <a href = "/about">about page <i class="fa-solid fa-circle-arrow-right"></i>.</a>
+              </p>
+            </div>
             <Container 
             className="buttons">
               <div className="line ls"></div>
@@ -65,6 +67,7 @@ const App = () => {
           {/* Text and Button Column */}
           <Col lg={6} className="teamjoinText">
             <h2>Looking to get involved or be a part of our team?</h2>
+            <Pill />
             <Row>
               <Col md={6}>
                 <p>While we are currently not taking applications for cabinet positions, including the roles of president and vice president, check out our current team — don't be afraid to reach out!</p>
@@ -104,6 +107,7 @@ const App = () => {
           {/* Text and Button Column */}
           <Col lg={6} className="teamjoinText">
             <h2>Check out our events and projects!</h2>
+            <Pill />
             <Row>
               <Col md={6}>
                 <p>Curious about our technical projects and past work? Explore our projects page to catch up on all our workshop and meeting slides!</p>
