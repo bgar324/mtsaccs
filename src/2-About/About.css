@@ -14,14 +14,14 @@
   margin-top: 50px;
 }
 
-/* .carousel-control-prev{
-  left: 10px;
+.carousel-control-prev{
+  left: -10px;
 }
 
 
 .carousel-control-next{
-  right: 30px;
-} */
+  right: -10px;
+}
 
 .about-container{
   width: 100%;
