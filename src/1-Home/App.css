@@ -1,6 +1,6 @@
 .orangebackground{
   background-color: #FFF7F0;  
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .mastertop {
@@ -73,22 +73,23 @@
   margin-bottom: 25px;
 }
 
-/* .informationalText p{
-  padding-top: 10px;
-} */
 
 .infoTextSuper{
   margin-top: -15px;
 }
 
+.infoTextSuper a.fml{
+  margin-top: -10px;
+}
+
 .infoTextSuper a,
 .teamjoinText a {
   position: relative;
-  display: inline-block; /* Ensure the link behaves like a block for proper centering */
+  display: inline-block; 
   text-decoration: none;
   color: #ffa500;
-  margin-top: 10px; /* Add some spacing for better layout */
-  text-align: center; /* Ensure centering within the container */
+  margin-top: 10px; 
+  text-align: center;
   transition: color 0.3s ease;
 }
 
@@ -96,24 +97,24 @@
 .teamjoinText a::after {
   content: "";
   position: absolute;
-  left: 0; /* Align underline to the start of the link */
-  right: 0; /* Ensure full width of the link */
-  bottom: -2px; /* Position underline slightly below the text */
+  left: 0; 
+  right: 0;
+  bottom: -2px;
   height: 2px;
-  width: 100%; /* Ensures full underline width */
+  width: 100%; 
   background-color: #ffa500;
-  transform: scaleX(0); /* Default state: underline hidden */
-  transform-origin: center; /* Animation starts from center */
-  transition: transform 0.3s ease; /* Smooth underline animation */
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease; 
 }
 
 .infoTextSuper a:hover::after,
 .teamjoinText a:hover::after {
-  transform: scaleX(1); /* Expand underline on hover */
+  transform: scaleX(1)
 }
 
 .teamjoinText {
-  text-align: center; /* Ensures all text within this section is centered */
+  text-align: center; 
 }
 
 

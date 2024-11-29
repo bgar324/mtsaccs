@@ -1,4 +1,5 @@
 .pcontent{
+  padding-bottom: 30px;
   background-color: #FAFAFA;
 }
 
@@ -16,5 +17,6 @@
   text-align: center;
   margin: 0 auto;
   font-size: 1.5rem; 
+  width: calc(100% - 40px);
 }
 

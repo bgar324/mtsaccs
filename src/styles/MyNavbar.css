@@ -74,3 +74,15 @@
 .spacer{
   height: 77px;
 }
+
+/* Remove border and outline */
+.navbar-toggler {
+  border: none; /* Removes the border */
+  box-shadow: none; /* Removes the default focus outline */
+}
+
+/* Remove focus outline when toggled */
+.navbar-toggler:focus {
+  outline: none; /* Removes the focus outline */
+  box-shadow: none; /* Removes the focus shadow */
+}

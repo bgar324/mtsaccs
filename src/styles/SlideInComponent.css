@@ -1,0 +1,31 @@
+/* Default transition */
+.slide-in-left,
+.slide-in-right,
+.slide-in-up,
+.slide-in-down {
+  opacity: 0; /* Hidden initially */
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+/* Specific animations */
+.slide-in-left {
+  transform: translateX(-100%);
+}
+
+.slide-in-right {
+  transform: translateX(100%);
+}
+
+.slide-in-up {
+  transform: translateY(100%);
+}
+
+.slide-in-down {
+  transform: translateY(-100%);
+}
+
+/* Final position for all directions */
+.visible {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+}
