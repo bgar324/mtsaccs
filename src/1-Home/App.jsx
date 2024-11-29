@@ -23,7 +23,6 @@ const App = () => {
 
       <Container className="informationalContainer">
         <Row>
-          {/* Text Column */}
           <Col lg={6} className="informationalText">
             <h2>What is Computer Science at Mt. SAC?</h2>
             <Pill />
@@ -54,8 +53,6 @@ const App = () => {
               <div className="line ls"></div>
             </Container>
           </Col>
-
-          {/* Image Column */}
           <Col lg={6}>
             <img src="static/IMG_4719.png" alt="Classroom" className="img-fluid informationalImage" />
           </Col>
@@ -68,9 +65,9 @@ const App = () => {
 
       <Container className="teamjoin">
         <Row>
-          {/* Text and Button Column */}
-          <Col lg={6} className="teamjoinText">
-            <h2>Looking to get involved or be a part of our team?</h2>
+          {/* Text Column */}
+          <Col lg={6} className="teamjoinText order-lg-1 order-1 mt-3">
+            <h2>Looking to get involved or join our team?</h2>
             <Pill />
             <Row>
               <Col md={6}>
@@ -93,9 +90,8 @@ const App = () => {
               </Col>
             </Row>
           </Col>
-
           {/* Image Column */}
-          <Col lg={6}>
+          <Col lg={6} className="order-lg-2 order-2">
             <img
               src="static/11.2 Mt.Sac CS x AGS Club.png"
               alt="Keyboards"
@@ -108,12 +104,11 @@ const App = () => {
       <Container className="teamjoin">
         <Row>
           {/* Image Column */}
-          <Col lg={6}>
+          <Col lg={6} className="order-lg-1 order-2">
             <img src="static/IMG_2030.jpg" alt="Event or Project" className="img-fluid keyboardImage" />
           </Col>
-
-          {/* Text and Button Column */}
-          <Col lg={6} className="teamjoinText">
+          {/* Text Column */}
+          <Col lg={6} className="teamjoinText order-lg-2 order-1 mt-3">
             <h2>Check out our events and projects!</h2>
             <Pill />
             <Row>
@@ -141,7 +136,6 @@ const App = () => {
       </Container>
 
       <MailingList />
-
       <Footer />
     </div>
   );

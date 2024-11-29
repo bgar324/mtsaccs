@@ -21,33 +21,30 @@ const About = () => {
           <Pill />
           <Row className="about-row1 align-items-center">
             {/* Text Column */}
-            <Col xs={12} md={6} className="mb-4 mb-md-0">
+            <Col xs={12} md={6} className="mb-4 mb-md-0 order-lg-1 order-1">
               <h2 className="text-center mb-4">What is the Computer Science Club?</h2>
               <Pill />
-              <p>
-                The Computer Science Club at Mt. San Antonio College is a welcoming
-                community that fosters growth and collaboration in technology. Our
-                mission is to make computer science fun and accessible while helping
-                students develop technical and leadership skills.
-              </p>
-              <p>
-                We host workshops, tutoring sessions, and hands-on activities to
-                complement coursework and encourage innovation. Members also gain
-                access to networking opportunities with peers and industry professionals.
-              </p>
-              <p>
-                Open to all Mt. SAC students, the club is inclusive and fee-free, offering
-                a supportive space to explore computer science regardless of experience
-                level.
-              </p>
-              <p>
-                Above all, we strive to build a sense of community, inspiring a love for
-                learning and a culture of support and innovation among our members.
-              </p>
+                <p>
+                  The Computer Science Club at Mt. San Antonio College is a welcoming that fosters growth and collaboration in technology. Our mission is to make computer science fun and accessible while helping students develop technical and leadership skills.
+                </p>
+                <p>
+                  We host workshops, tutoring sessions, and hands-on activities to
+                  complement coursework and encourage innovation. Members also gain
+                  access to networking opportunities with peers and industry professionals.
+                </p>
+                <p>
+                  Open to all Mt. SAC students, the club is inclusive and fee-free, offering
+                  a supportive space to explore computer science regardless of experience
+                  level.
+                </p>
+                <p>
+                  Above all, we strive to build a sense of community, inspiring a love for
+                  learning and a culture of support and innovation among our members.
+                </p>
             </Col>
 
             {/* Carousel Column */}
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className = "order-lg-2 order-2">
               <Carousel className="about-carousel">
                 <Carousel.Item>
                   <Image
@@ -76,12 +73,12 @@ const About = () => {
           {/* Who Section */}
           <Row className="about-row2 align-items-center my-5">
             {/* Image Column */}
-            <Col xs={12} md={6} className="mb-4 mb-md-0">
+            <Col xs={12} md={6} className="mb-4 mb-md-0 order-lg-1 order-2">
               <Image src="static/IMG_5431.jpg" fluid rounded />
             </Col>
 
             {/* Text Column */}
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className = "order-lg-2 order-1">
               <h2 className="text-center mb-4">
                 Who is the Computer Science Club?
               </h2>
