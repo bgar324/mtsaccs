@@ -78,10 +78,10 @@ const About = () => {
           </Row>
 
           {/* Who Section */}
-          <Row className="about-row2 align-items-center my-5">
+          <Row className="about-row2 my-5">
             {/* Image Column */}
             <Col xs={12} md={6} className="mb-4 mb-md-0 order-lg-1 order-2">
-              <Image src="static/IMG_5431.jpg" fluid rounded />
+              <Image src="static/IMG_5431.jpg" fluid rounded/>
             </Col>
 
             {/* Text Column */}

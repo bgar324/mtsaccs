@@ -193,7 +193,7 @@ const JoinUs = () => {
           <Accordion.Item eventKey="5">
             <Accordion.Header>Who are the club's partners and collaborators?</Accordion.Header>
             <Accordion.Body>
-                Our club works closely with a variety of groups, including SWE, SMACS, ENGR Club, GAIN, AGS, PTK, Webshare, and more. We also partner with organizations like STEM for Others and MLH to expand opportunities for our members.
+                Our club works closely with a variety of groups, including SWE, SMACS, ENGR Club, GAIN, AGS, PTK, Webshare, and more. We also partner with organizations like STEM for Others, Break Through Tech, and MLH to expand opportunities for our members.
             </Accordion.Body>
           </Accordion.Item>
 
