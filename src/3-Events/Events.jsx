@@ -31,20 +31,12 @@ const Events = () => {
   // Define Past Events
   const pastEvents = [
     {
-      id: '1',
-      imagesrc: '/static/events/cs_food_bank_flyer.png',
-      alt: 'Food Bank',
-      eventName: 'Food Bank',
-      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform',
-      date: 'Nov. 2'
-    },
-    {
-      id: '2',
-      imagesrc: '/static/events/cscclubgameflyerv2.png',
-      alt: 'Game Night',
-      eventName: 'Game Night',
-      registerLink: 'https://example.com/register/hackathon',
-      date: 'Oct. 30'
+      id: '6',
+      imagesrc: '/static/events/smacs.png',
+      alt: 'Hackathon Prep (SMACS)',
+      eventName: 'Hackathon Prep (SMACS)',
+      registerLink: 'https://smacs.vercel.app/',
+      date: 'Oct. 23'
     },
     {
       id: '3',
@@ -55,6 +47,14 @@ const Events = () => {
       date: 'Oct. 29'
     },
     {
+      id: '2',
+      imagesrc: '/static/events/cscclubgameflyerv2.png',
+      alt: 'Game Night',
+      eventName: 'Game Night',
+      registerLink: 'https://example.com/register/hackathon',
+      date: 'Oct. 30'
+    },
+    {
       id: '4',
       imagesrc: '/static/events/Nov_2024_MESA_Guest_Speaker_Jim_Herold.jpg',
       alt: 'Jim Herold Guest Speaker',
@@ -63,14 +63,14 @@ const Events = () => {
       date: 'Nov. 1'
     },
     {
-      id: '6',
-      imagesrc: '/static/events/smacs.png',
-      alt: 'Hackathon Prep (SMACS)',
-      eventName: 'Hackathon Prep (SMACS)',
-      registerLink: 'https://smacs.vercel.app/',
-      date: 'Oct. 23'
+      id: '1',
+      imagesrc: '/static/events/cs_food_bank_flyer.png',
+      alt: 'Food Bank',
+      eventName: 'Food Bank',
+      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform',
+      date: 'Nov. 2'
     }
-  ];
+  ];  
 
   return (
     <div className="app-container">
