@@ -60,7 +60,7 @@ const App = () => {
       </Container>
 
       <div className="banner2">
-        <img src="static/banner2.png" alt="Banner 2" className="img-fluid w-100 topbanner special" />
+        <img src="static/banner2.png" alt="Banner 2" className="img-fluid w-100 topbanner2" />
       </div>
 
       <Container className="teamjoin">
