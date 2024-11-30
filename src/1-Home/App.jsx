@@ -16,7 +16,7 @@ const App = () => {
       <MyNavbar />
       <div className="content">
         <div className="mastertop">
-          <img src="static/header.png" alt="Building 43" className="img-fluid w-100 topbanner" />
+          <img src="static/Campus.jpg" alt="Building 43" className="img-fluid w-100 topbanner" />
           <img src="static/MtSAC (1).png" alt="CS Club Logo" className="img-fluid duck" />
         </div>
       </div>
