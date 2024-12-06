@@ -1,14 +1,5 @@
-* add pill lines under page headers 0/
+* compress images
 
-* about page  
+* fix bug with header
 
-* responsiveness
-
-* transitions
-
-* fix events page so that each events card is imported single handedly, then do off-on grey-white background for each row
-- rows
-
-* revamp hyperlinks
-
-* special advisors
+* 404 page

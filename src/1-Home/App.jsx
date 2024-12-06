@@ -16,7 +16,7 @@ const App = () => {
       <MyNavbar />
       <div className="content">
         <div className="mastertop">
-          <img src="static/Campus.jpg" alt="Building 43" className="img-fluid w-100 topbanner" />
+          <img src="static/Campus.webp" alt="Building 43" className="img-fluid w-100 topbanner" />
           <img src="static/MtSAC (1).png" alt="CS Club Logo" className="img-fluid duck" />
         </div>
       </div>
@@ -54,13 +54,13 @@ const App = () => {
             </Container>
           </Col>
           <Col lg={6}>
-            <img src="static/IMG_4719.png" alt="Classroom" className="img-fluid informationalImage" />
+            <img src="static/IMG_4719.jpg" alt="Classroom" className="img-fluid informationalImage" />
           </Col>
         </Row>
       </Container>
 
       <div className="banner2">
-        <img src="static/banner2.png" alt="Banner 2" className="img-fluid w-100 topbanner2" />
+        <img src="static/banner2.jpg" alt="Banner 2" className="img-fluid w-100 topbanner2" />
       </div>
 
       <Container className="teamjoin">
@@ -93,7 +93,7 @@ const App = () => {
           {/* Image Column */}
           <Col lg={6} className="order-lg-2 order-2">
             <img
-              src="static/11.2 Mt.Sac CS x AGS Club.png"
+              src="static/11.2 Mt.Sac CS x AGS Club.jpg"
               alt="Keyboards"
               className="img-fluid keyboardImage"
             />
