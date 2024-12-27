@@ -15,6 +15,7 @@
   filter: brightness(50%);
 }
 
+
 /* Default size */
 .duck {
   position: absolute;
@@ -24,10 +25,29 @@
   width: 800px;
 }
 
+/* 995 to 1505 */
+
+@media (max-width: 1505px) {
+  .duck {
+    top: 50%;
+    width: 700px;
+  }
+}
+
+/* 1033 */
+
+@media (max-width: 1033px){
+  .duck {
+    top: 50%;
+    width: 600px;
+  }
+}
+
 /* Medium screens (768px and up) */
 @media (max-width: 992px) {
   .duck {
-    width: 600px;
+    top: 50%;
+    width: 500px;
   }
 }
 
@@ -41,7 +61,8 @@
 /* Extra small screens (below 576px) */
 @media (max-width: 576px) {
   .duck {
-    width: 300px;
+    top: 50%;
+    width: 250px;
   }
 }
 
