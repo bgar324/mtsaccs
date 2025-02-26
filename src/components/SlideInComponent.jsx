@@ -17,7 +17,7 @@ const SlideInComponent = ({ children, direction = 'left', className = '', ...pro
       },
       { threshold: 0.1 }
     );
-    console.log('Ref current:', ref.current); // Check if ref is correctly attached
+    console.log('Ref current:', ref.current); 
     if (ref.current) observer.observe(ref.current);
 
     return () => observer.disconnect();

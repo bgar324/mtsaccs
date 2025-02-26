@@ -138,6 +138,18 @@ const EventPage = () => {
       organizer: 'Computer Science Club',
       signup: 'Fill out the registration form BEFORE Tuesday, December 3rd 11:59PM'
     },
+    {
+      id: '8',
+      title: 'Virtual Mentorship Mixer',
+      date: 'March 13, 2025',
+      time: '6:00 - 8:00 PM',
+      location: 'This event is FULLY remote and on Zoom! Make sure you have a version 5.3.0 or higher.',
+      description: 'Meet and connect with mentors from top tech companies and industry leaders! Gain valuable information and insight regarding Career Growth & Readiness as well as the Tech Industry and Deep Dives.',
+      registerLink : 'https://lu.ma/vfidevu9',
+      imagesrc: '/static/events/cs mentorship.png',
+      organizer: 'Computer Science Club',
+      signup: 'Fill out the registration BEFORE Thursday, March 12 11:59PM'
+    }
   ];
 
   const event = events.find((e) => e.id === id);

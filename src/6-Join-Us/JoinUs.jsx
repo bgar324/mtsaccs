@@ -26,7 +26,7 @@ const JoinUs = () => {
         </section>
 
         <Card className="membership-card">
-          <Card.Body className="membership-card-text">
+          <Card.Body className="membership-card-text infoTextSuper ">
             Membership is open all year round, and all you need to do is join our{' '}
             <a href="https://discord.com/invite/sWpjfHVuuT" target="_blank" rel="noopener noreferrer">
               Discord server.

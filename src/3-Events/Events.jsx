@@ -8,27 +8,25 @@ import Pill from '../components/Pill';
 import './Events.css';
 
 const Events = () => {
-  // Define Upcoming Events
   const upcomingEvents = [
-    {
-      id: '5',
-      imagesrc: '/static/events/cs club stem flyer.png',
-      alt: 'STEMForOthers Project Opportunity',
-      eventName: 'STEMForOthers Project Opportunity',
-      registerLink: 'https://docs.google.com/forms/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit',
-      date: 'Fall to Spring'
-    },
-    {
-      id: '7',
-      imagesrc: '/static/events/mtysacuclav932.png',
-      alt: 'UCLA + Break Through Tech Flyer',
-      eventName: 'UCLA + Break Through Tech AI Program Info Session',
-      registerLink: 'https://smacs.vercel.app/',
-      date: 'Dec. 3'
-    }
+  {
+    id: '8',
+    imagesrc: '/static/events/cs mentorship.png',
+    alt: 'Virtual Mentorship Mixer',
+    eventName: 'Virtual Mentorship Mixer',
+    registerLink: 'https://lu.ma/vfidevu9',
+    date: 'Mar. 13'
+  },
+  {
+    id: '5',
+    imagesrc: '/static/events/cs club stem flyer.png',
+    alt: 'STEMForOthers Project Opportunity',
+    eventName: 'STEMForOthers Project Opportunity',
+    registerLink: 'https://docs.google.com/forms/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit',
+    date: 'Fall 2024 to Spring 2025'
+  },
   ];
 
-  // Define Past Events
   const pastEvents = [
     {
       id: '6',
@@ -69,6 +67,14 @@ const Events = () => {
       eventName: 'Food Bank',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform',
       date: 'Nov. 2'
+    },
+    {
+      id: '7',
+      imagesrc: '/static/events/mtysacuclav932.png',
+      alt: 'UCLA + Break Through Tech Flyer',
+      eventName: 'UCLA + Break Through Tech AI Program Info Session',
+      registerLink: 'https://smacs.vercel.app/',
+      date: 'Dec. 3'
     }
   ];  
 
@@ -78,8 +84,6 @@ const Events = () => {
         <title>Events | CS Club at Mt. SAC</title>
       </Helmet>
       <MyNavbar />
-
-      {/* Upcoming Events Section */}
       <div className="content econtent">
         <Container fluid className="econtainer">
           <h2 className="text-center team-header">Upcoming Events</h2>
@@ -102,10 +106,9 @@ const Events = () => {
         </Container>
       </div>
 
-      {/* Past Events Section */}
       <div className="past-events-section">
         <Container fluid className="econtainer">
-          <h2 className="text-center team-header">Past Events</h2>
+          <h2 className="text-center team-header">Fall 2024 Events</h2>
           <Pill />
           <Row className="event-list g-4">
             {pastEvents.map((event) => (
