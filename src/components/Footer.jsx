@@ -45,8 +45,8 @@ const Footer = () => {
         {/* Social media icons */}
         <div className="social-icons">
           <a href="https://www.instagram.com/cs.mtsac/" target="_blank"><i className="fab fa-instagram"></i></a>
-          <a href="https://github.com/mtsac-cs" target="_blank"><i className="fab fa-discord"></i></a>
-          <a href="https://discord.com/invite/sWpjfHVuuT" target="_blank"><i className="fab fa-github"></i></a>
+          <a href="https://discord.com/invite/sWpjfHVuuT" target="_blank"><i className="fab fa-discord"></i></a>
+          <a href="https://github.com/mtsac-cs" target="_blank"><i className="fab fa-github"></i></a>
         </div>
 
         <div className="line"></div>
