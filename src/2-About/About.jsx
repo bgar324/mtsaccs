@@ -138,7 +138,7 @@ const About = () => {
                   imagesrc="static/advisors/51e5ddb9-fe19-46a9-af78-0a78ad96effc.png"
                   name={
                     <a
-                      href="https://www.mtsac.edu/profiles/johannsen.html"
+                      href="https://www.mtsac.edu/profiles/jjohannsen1.html"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

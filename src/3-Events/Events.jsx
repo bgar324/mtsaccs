@@ -18,6 +18,14 @@ const Events = () => {
     date: 'Mar. 13'
   },
   {
+    id: '9',
+    imagesrc: '/static/events/cs ebcc event.png',
+    alt: 'Electrical Bluetooth Car Event',
+    eventName: 'EBCC-1 Event',
+    registerLink: 'https://forms.gle/RRSre4LhTXs2kPH38',
+    date: 'Apr. 25'
+  },
+  {
     id: '5',
     imagesrc: '/static/events/cs club stem flyer.png',
     alt: 'STEMForOthers Project Opportunity',
