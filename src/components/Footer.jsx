@@ -9,15 +9,20 @@ const Footer = () => {
     <footer className="footer">
       <Container className="footer-container">
         <Row>
-          {/* Column 1: About Section */}
+
           <Col lg={4} md={6} className="footer-column">
             <h5 className="footer-title">Contact us at</h5>
             <p className="footer-text">
               <a href = "mailto: mtsac.csclub@gmail.com">mtsac.csclub@gmail.com</a>
             </p>
+            <h5 className = "footer-title">
+              How can we improve? Let us know!
+            </h5>
+            <Button variant="outline-warning" href="https://forms.gle/2C5LJegVJxh1PdBj8" target = "_blank" className="join-button jb-footer">
+                Provide Feedback
+            </Button>
           </Col>
 
-          {/* Column 2: Quick Links */}
           <Col lg={4} md={6} className="footer-column">
             <h5 className="footer-title">Quick Links</h5>
             <ul className="footer-links">
@@ -29,10 +34,9 @@ const Footer = () => {
             </ul>
           </Col>
 
-          {/* Column 3: Contact Section */}
           <Col lg={4} md={6} className="footer-column">
             <h5 className="footer-title">Looking to stay updated?</h5>
-            <Button variant="outline-warning" href="https://docs.google.com/forms/u/1/d/13sxHl6DJUDpSmCvsqQg0Gb6iGum2pA31XZ0mEClDvyc/edit" target = "_blank" className="join-button jb-footer">
+            <Button variant="outline-warning" href="https://forms.gle/7ESAajuwYu8Kphg59" target = "_blank" className="join-button jb-footer">
                 Join our Mailing List!
             </Button>
           </Col>
