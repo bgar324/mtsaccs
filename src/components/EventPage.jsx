@@ -158,7 +158,7 @@ const EventPage = () => {
       date: 'April 25, 2025',
       time: '3:00 - 7:00 PM',
       location: 'Building 60, Rm. TBA',
-      description: 'Meet and connect with mentors from top tech companies and industry leaders! Gain valuable information and insight regarding Career Growth & Readiness as well as the Tech Industry and Deep Dives.',
+      description: 'TBA! Check back soon for more details.',
       registerLink : 'https://forms.gle/RRSre4LhTXs2kPH38',
       imagesrc: '/static/events/cs ebcc event.png',
       organizer: 'Computer Science Club',
