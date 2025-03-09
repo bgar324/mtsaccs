@@ -24,7 +24,7 @@ const App = () => {
       <Container className="informationalContainer">
         <Row>
           <Col lg={6} className="informationalText">
-            <h2>What is Computer Science at Mt. SAC?</h2>
+            <h2>What is Computer Science at <br /> Mt. SAC?</h2>
             <Pill />
             <div className="infoTextSuper">
               <p>
@@ -67,7 +67,7 @@ const App = () => {
         <Row>
           {/* Text Column */}
           <Col lg={6} className="teamjoinText order-lg-1 order-1 mt-3">
-            <h2>Looking to get involved or join our team?</h2>
+            <h2>Looking to get involved or <br/> join our team?</h2>
             <Pill />
             <Row>
               <Col md={6}>
