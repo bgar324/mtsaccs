@@ -102,7 +102,7 @@ const EventPage = () => {
           <li>Translation Group: Translate the existing Java course into C++ and/or Python.</li>
         </ul>
       ),
-      registerLink: 'https://docs.google.com/forms/u/1/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit',
+      registerLink: 'https://forms.gle/UwmMgbQhD57Zou386',
       imagesrc: '/static/events/cs club stem flyer.png',
       organizer: 'Computer Science Club',
       signup: "Register via the Google Form below. This opportunity is expected to run through Spring 2025, and we do have limited availability. So don't hesitate to register soon!"
