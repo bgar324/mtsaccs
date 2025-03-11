@@ -66,9 +66,9 @@ const Projects = () => {
               image="static/project/Resume Workshop Slideshow.png" 
             />
             <ProjectCard
-              name="App building with Mendix"
-              link="https://docs.google.com/presentation/d/1TDU9_XIL-FdNbVrhpzmsge8rzIhpQ-2KUVmxTZprgBQ/edit#slide=id.g3f0b50a039_0_0"
-              image="static/project/MLH Localhost - No-Code App Building with Mendix - Workshop Slides With Video (v0.0.1).png" 
+              name="Web Development"
+              link="https://docs.google.com/presentation/d/1n_b8fKJWwiZZnUXX9GhMSezJvULtRHDlOmDYwAMhOrw/edit#slide=id.g6514918931_0_22"
+              image="static/project/Web Development Presentation.png" 
             />
             <ProjectCard
               name="AI Briefing"
@@ -76,10 +76,16 @@ const Projects = () => {
               image="static/project/AI.png" 
             />
             <ProjectCard
-              name="Web Development"
-              link="https://docs.google.com/presentation/d/1n_b8fKJWwiZZnUXX9GhMSezJvULtRHDlOmDYwAMhOrw/edit#slide=id.g6514918931_0_22"
-              image="static/project/Web Development Presentation.png" 
+              name="App building with Mendix"
+              link="https://docs.google.com/presentation/d/1TDU9_XIL-FdNbVrhpzmsge8rzIhpQ-2KUVmxTZprgBQ/edit#slide=id.g3f0b50a039_0_0"
+              image="static/project/MLH Localhost - No-Code App Building with Mendix - Workshop Slides With Video (v0.0.1).png" 
             />
+            <ProjectCard
+              name="Break Through Tech AI"
+              link="https://docs.google.com/presentation/d/1huwZMZEsSb_MaeA6tdM_hiQ1xJOcwuMYapVl8bkoUfA/edit?usp=sharing"
+              image="static/project/BTTAI Mt. SAC Presentation (1).png" 
+            />
+            
           </Row>
         </Container>
       </div>

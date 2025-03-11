@@ -30,7 +30,7 @@ const Events = () => {
     imagesrc: '/static/events/cs club stem flyer.png',
     alt: 'STEMForOthers Project Opportunity',
     eventName: 'STEMForOthers Project Opportunity',
-    registerLink: 'https://docs.google.com/forms/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit',
+    registerLink: 'https://forms.gle/UwmMgbQhD57Zou386',
     date: 'Fall 2024 to Spring 2025'
   },
   ];
