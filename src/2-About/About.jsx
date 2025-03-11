@@ -111,7 +111,7 @@ const About = () => {
             <Row className="justify-content-center g-4">
               <Col xs={12} sm={6} lg={4} className="d-flex justify-content-center">
                 <OfficerCard
-                  imagesrc="static/advisors/AtanasioDominick.png"
+                  imagesrc="static/advisors/AtanasioDominick.jpg"
                   name={
                     <a
                       href="https://www.mtsac.edu/profiles/datanasio.html"
@@ -135,7 +135,7 @@ const About = () => {
               </Col>
               <Col xs={12} sm={6} lg={4} className="d-flex justify-content-center">
                 <OfficerCard
-                  imagesrc="static/advisors/51e5ddb9-fe19-46a9-af78-0a78ad96effc.png"
+                  imagesrc="static/advisors/jonathan-johannsen-1567033401-square.jpg"
                   name={
                     <a
                       href="https://www.mtsac.edu/profiles/jjohannsen1.html"
@@ -153,6 +153,30 @@ const About = () => {
                       rel="noopener noreferrer"
                     >
                       jjohannsen1@mtsac.edu
+                    </a>
+                  }
+                />
+              </Col>
+              <Col xs={12} sm={6} lg={4} className="d-flex justify-content-center">
+                <OfficerCard
+                  imagesrc="static/advisors/WongChun.png"
+                  name={
+                    <a
+                      href="https://www.mtsac.edu/profiles/cwong176.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Chun Wong
+                    </a>
+                  }
+                  position="Professor - Computer Science"
+                  year={
+                    <a
+                      href="mailto:cwong176@mtsac.edu"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      cwong176@mtsac.edu
                     </a>
                   }
                 />
