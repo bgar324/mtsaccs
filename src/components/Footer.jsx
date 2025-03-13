@@ -46,7 +46,6 @@ const Footer = () => {
       <Container className="social-footer-container">
         <div className="line"></div>
         
-        {/* Social media icons */}
         <div className="social-icons">
           <a href="https://www.instagram.com/cs.mtsac/" target="_blank"><i className="fab fa-instagram"></i></a>
           <a href="https://discord.com/invite/sWpjfHVuuT" target="_blank"><i className="fab fa-discord"></i></a>
@@ -57,7 +56,12 @@ const Footer = () => {
       </Container>
 
       <div className="footer-bottom">
+        <div>
         Copyright © 2024 <a href ="https://benjamingarcia.vercel.app/" target = "_blank">ONDA</a>
+        </div>
+        <div>
+          <a className = "source-code footer-link" href = "https://github.com/bgar324/mtsaccs">source code</a>
+        </div>
       </div>
     </footer>
   );
