@@ -155,11 +155,29 @@ const EventPage = () => {
       title: (
         <span> Electrical Bluetooth Circuit Car <i>(EBCC-1)</i> Event</span>
       ),
-      date: 'April 25, 2025',
+      date: 'April 25 → TBA, 2025',
       time: '3:00 - 7:00 PM',
-      location: 'Building 60, Rm. TBA',
-      description: 'TBA! Check back soon for more details.',
-      registerLink : 'https://forms.gle/RRSre4LhTXs2kPH38',
+      location: 'Building 60, Rm. 1620 & 1628',
+      description: (
+        <ul>
+          <li>
+          ​✅ How to assemble and program a Bluetooth-controlled car
+          </li>
+          <li>
+          ✅ The fundamentals of circuit components and hardware integration
+          </li>
+          <li>
+          ✅ 3D modeling and printing a custom car shell
+          </li>
+          <li>
+          ✅ Real-world applications of programming and electrical engineering
+          </li>
+          <li>
+          ✅ Team collaboration and problem-solving in a fun, interactive environment
+          </li>
+        </ul>
+      ),
+      registerLink : 'https://lu.ma/i7g6h088',
       imagesrc: '/static/events/cs ebcc event.png',
       organizer: 'Computer Science Club',
       signup: 'Fill out the registration BEFORE Thursday, April 24 11:59PM'
