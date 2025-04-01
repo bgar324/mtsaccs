@@ -49,7 +49,7 @@ const Team = () => {
       alt: 'Person 3',
       name: 'Benjamin Garcia',
       position: 'Outreach Officer',
-      year: 'Class of 2024',
+      year: 'Class of 2027',
     },
     {
       imagesrc: '/static/people/natalie.png',
