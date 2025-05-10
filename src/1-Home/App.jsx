@@ -4,7 +4,7 @@ import MyNavbar from '../components/MyNavbar';
 import Footer from '../components/Footer';
 import './App.css';
 import MailingList from '../components/MailingList';
-import { Col, Row, Container } from 'react-bootstrap';
+import { Col, Row, Container, Alert } from 'react-bootstrap';
 import Pill from '../components/Pill';
 
 const App = () => {
@@ -14,6 +14,9 @@ const App = () => {
         <title>Home | CS Club at Mt. SAC</title>
       </Helmet>
       <MyNavbar />
+      <Alert variant="warning" className="text-center m-0">
+        This site is no longer maintained. For the latest updates, visit <a href="https://mtsaccs.org">mtsaccs.org</a>. See you there!
+      </Alert>
       <div className="content">
         <div className="mastertop">
           <img src="static/Campus.webp" alt="Building 43" className="img-fluid w-100 topbanner" />
